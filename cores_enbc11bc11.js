@@ -185,7 +185,7 @@ async function userstat() {
 
 
 
-    function formatCurrency(number, decimalPlaces = 2) {
+    function formatCurrency(number, decimalPlaces = 8) {
       return (parseFloat(number) / Math.pow(10, 18)).toFixed(decimalPlaces);
     }
 
