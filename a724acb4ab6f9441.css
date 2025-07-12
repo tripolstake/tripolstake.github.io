@@ -1,0 +1,16 @@
+.blur_blur__AKR_0 {
+    position: absolute;
+    z-index: -5;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.blur_blur__AKR_0 img {
+    max-width: 100%
+}
