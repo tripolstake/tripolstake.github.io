@@ -69,7 +69,7 @@ export const web3Modal = new Web3Modal({
 // ✅ Reliable Polygon RPC public client
 export const stablePublicClient = createPublicClient({
   chain: polygon,
-  transport: http("https://mainnet.infura.io/v3/282da12816fb48449fc12cb2e6bba5fe")
+  transport: http("https://mainnet.infura.io/v3/4a2c218a143d43fca15f25d20a46d3ab")
 })
 
 $(document).ready(function () {
