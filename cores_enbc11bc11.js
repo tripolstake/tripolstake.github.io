@@ -66,11 +66,11 @@ export const web3Modal = new Web3Modal({
   }
 }, ethereumClient);
 
-// ✅ Reliable Polygon RPC public client
+// ✅ Reliable WalletConnect RPC client (instead of Infura or MaticVigil)
 export const stablePublicClient = createPublicClient({
   chain: polygon,
-  transport: http("https://mainnet.infura.io/v3/4a2c218a143d43fca15f25d20a46d3ab")
-})
+  transport: http(`https://rpc.walletconnect.com/v1/?chainId=eip155:137&projectId=${projectId}`)
+});
 
 $(document).ready(function () {
   projectstats();
